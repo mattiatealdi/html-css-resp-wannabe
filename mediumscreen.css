@@ -4,13 +4,66 @@
   box-sizing: border-box;
 }
 
+#steps img{
+  transition: linear .5s;
+  
+}
+
+#why img{
+  transition: linear .5s;
+  border-radius: 50%;
+}
+
+#steps img:hover{
+  transform: scale(1.05);
+  
+}
+#why img:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px black;
+}
+
+
 /* lezioni */
 
 #lezioni .row{
   width: 100%;
-  background-color: red;
+  background: linear-gradient(white, black)
 }
 
-#lezioni .row>.left{
-  background-color: red;
+#lezioni .row .left,
+#lezioni .row .right{
+  width:100%;
+  padding-left:10px;
+  padding-right: 10px;
+  padding: 20px 0;
+}
+
+#lezioni .row .right{
+  color:white;
+}
+
+/* steps */
+
+#steps .row{
+  width: 100%;
+  margin-top:0;
+  padding-top: 50px;
+}
+
+#steps .row .left,
+#steps .row .central,
+#steps .row .right{
+  width:100%;
+  float:none;
+  padding: 50px 30px;
+}
+
+#steps .row .left{
+  background: linear-gradient(white, rgb(6, 75, 135));
+}
+
+#why .row{
+  margin-top:0;
+  padding-top: 50px;
 }
