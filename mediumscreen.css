@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+/* lezioni */
+
+#lezioni .row{
+  width: 100%;
+  background-color: red;
+}
+
+#lezioni .row>.left{
+  background-color: red;
+}
