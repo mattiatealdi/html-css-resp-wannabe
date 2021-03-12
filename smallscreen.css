@@ -1,0 +1,49 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+#lezioni{
+  background-color: #F2F2CD;
+}
+
+
+#lezioni .row{
+  margin-top: 0;
+  width: 100%;
+}
+
+
+#lezioni .row>.left,
+#lezioni .row>.right{
+  float: none;
+  background-color: #F2F2CD;
+  width: 100%;
+}
+
+/* secondo blocco */
+
+#steps .row{
+  margin-top: 0;
+  width: 100%;
+}
+
+#steps .row h1{
+  margin-top: 0;
+  margin-left: 0;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+}
+
+/* terzo blocco */
+
+#why .row{
+  margin-top: 0;
+  width: 100%;
+  background-color: #F2F2CD;
+}
